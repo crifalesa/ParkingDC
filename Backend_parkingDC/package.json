@@ -1,0 +1,19 @@
+{
+  "name": "backend_ciclo4",
+  "version": "1.0.0",
+  "description": "\"Aplicacion_ciclo4\"",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cris leon",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "mongoose": "^6.7.0"
+  }
+}
