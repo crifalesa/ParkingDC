@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  background-color: #404040;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+header a {
+  color: antiquewhite;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+.parqueaderos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parqueadero {
+  border: 1.5px #404040 solid;
+  margin: 1rem;
+}
+
+.parqueadero img {
+  width: 95%;
+  max-width: 350px;
+
+}
+
+.parqueadero-info {
+  padding: 2rem;
+}
+

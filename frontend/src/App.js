@@ -1,11 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import HomeScreen from './screens/HomeScreen';
+import { Link } from "react-router-dom"
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <h1>Proyecto ParkingDC</h1>
+      <header>
+        <Link to="/">ParkingDC</Link>
+      </header> 
+      <main>
+        <Routes>
+          <Route path='/' element={<HomeScreen/>}/>
+        </Routes>
+      </main>
     </div>
+    </BrowserRouter>
   );
 }
 
